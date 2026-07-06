@@ -17,6 +17,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
 
   <style>
+  img { opacity: 0; transition: opacity 0.5s ease-in; }
+  img.loaded { opacity: 1; }
+
     /* ============================================================
        VARIÁVEIS GLOBAIS E RESET
     ============================================================ */
@@ -904,8 +907,8 @@
   <section style="overflow:hidden; background: var(--cream);">
     <div class="section-intro">
       <div class="intro-visual reveal">
-        <img class="intro-img-main" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85" alt="Salão Maison Belle" />
-        <img class="intro-img-accent" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=85" alt="Detalhe do estúdio" />
+        <img decoding="async" fetchpriority="high" class="intro-img-main" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85" alt="Salão Maison Belle" />
+        <img decoding="async" fetchpriority="high" class="intro-img-accent" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=85" alt="Detalhe do estúdio" />
         <div class="intro-badge">
           <strong>12</strong>
           <span>Anos de Excelência</span>
@@ -952,7 +955,7 @@
     </div>
     <div class="services-grid">
       <div class="service-card reveal">
-        <img class="service-card-img" src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600&q=80" alt="Coloração Premium" />
+        <img decoding="async" loading="lazy" class="service-card-img" src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600&q=80" alt="Coloração Premium" />
         <div class="service-card-overlay">
           <div class="service-card-num">01</div>
           <h3>Coloração Premium</h3>
@@ -961,7 +964,7 @@
         </div>
       </div>
       <div class="service-card reveal reveal-delay-1">
-        <img class="service-card-img" src="https://images.unsplash.com/photo-1519735777090-ec97162dc266?w=600&q=80" alt="Tratamentos Capilares" />
+        <img decoding="async" loading="lazy" class="service-card-img" src="https://images.unsplash.com/photo-1519735777090-ec97162dc266?w=600&q=80" alt="Tratamentos Capilares" />
         <div class="service-card-overlay">
           <div class="service-card-num">02</div>
           <h3>Tratamentos Capilares</h3>
@@ -970,7 +973,7 @@
         </div>
       </div>
       <div class="service-card reveal reveal-delay-2">
-        <img class="service-card-img" src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&q=80" alt="Estética Facial" />
+        <img decoding="async" loading="lazy" class="service-card-img" src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&q=80" alt="Estética Facial" />
         <div class="service-card-overlay">
           <div class="service-card-num">03</div>
           <h3>Estética Facial</h3>
@@ -991,7 +994,7 @@
     </div>
     <div class="team-grid">
       <div class="team-card reveal">
-        <img class="team-img" src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&q=85" alt="Ana Carolina" />
+        <img decoding="async" loading="lazy" class="team-img" src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&q=85" alt="Ana Carolina" />
         <div class="team-info">
           <h3>Ana Carolina</h3>
           <span>Colorista Sênior</span>
@@ -1002,7 +1005,7 @@
         </div>
       </div>
       <div class="team-card reveal reveal-delay-1">
-        <img class="team-img" src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=85" alt="Beatriz Santos" />
+        <img decoding="async" loading="lazy" class="team-img" src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=85" alt="Beatriz Santos" />
         <div class="team-info">
           <h3>Beatriz Santos</h3>
           <span>Especialista em Tratamentos</span>
@@ -1013,7 +1016,7 @@
         </div>
       </div>
       <div class="team-card reveal reveal-delay-2">
-        <img class="team-img" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=85" alt="Camila Oliveira" />
+        <img decoding="async" loading="lazy" class="team-img" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=85" alt="Camila Oliveira" />
         <div class="team-info">
           <h3>Camila Oliveira</h3>
           <span>Esteticista Facial</span>
@@ -1024,7 +1027,7 @@
         </div>
       </div>
       <div class="team-card reveal reveal-delay-3">
-        <img class="team-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=85" alt="Diana Ferreira" />
+        <img decoding="async" loading="lazy" class="team-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=85" alt="Diana Ferreira" />
         <div class="team-info">
           <h3>Diana Ferreira</h3>
           <span>Diretora Criativa</span>
@@ -1047,27 +1050,27 @@
     </div>
     <div class="gallery-grid">
       <div class="gallery-item">
-        <img class="gallery-img" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=700&q=80" alt="Transformação 1" />
+        <img decoding="async" loading="lazy" class="gallery-img" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=700&q=80" alt="Transformação 1" />
         <div class="gallery-item-overlay"><span class="gallery-item-label">Coloração Balayage</span></div>
       </div>
       <div class="gallery-item">
-        <img class="gallery-img" src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=500&q=80" alt="Transformação 2" />
+        <img decoding="async" loading="lazy" class="gallery-img" src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=500&q=80" alt="Transformação 2" />
         <div class="gallery-item-overlay"><span class="gallery-item-label">Corte Premium</span></div>
       </div>
       <div class="gallery-item">
-        <img class="gallery-img" src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&q=80" alt="Transformação 3" />
+        <img decoding="async" loading="lazy" class="gallery-img" src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&q=80" alt="Transformação 3" />
         <div class="gallery-item-overlay"><span class="gallery-item-label">Estética Facial</span></div>
       </div>
       <div class="gallery-item">
-        <img class="gallery-img" src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=700&q=80" alt="Transformação 4" />
+        <img decoding="async" loading="lazy" class="gallery-img" src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=700&q=80" alt="Transformação 4" />
         <div class="gallery-item-overlay"><span class="gallery-item-label">Ritual Completo</span></div>
       </div>
       <div class="gallery-item">
-        <img class="gallery-img" src="https://images.unsplash.com/photo-1599351431613-18ef1fdd27e6?w=500&q=80" alt="Transformação 5" />
+        <img decoding="async" loading="lazy" class="gallery-img" src="https://images.unsplash.com/photo-1599351431613-18ef1fdd27e6?w=500&q=80" alt="Transformação 5" />
         <div class="gallery-item-overlay"><span class="gallery-item-label">Nutrição Capilar</span></div>
       </div>
       <div class="gallery-item">
-        <img class="gallery-img" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&q=80" alt="Transformação 6" />
+        <img decoding="async" loading="lazy" class="gallery-img" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&q=80" alt="Transformação 6" />
         <div class="gallery-item-overlay"><span class="gallery-item-label">Make Artística</span></div>
       </div>
     </div>
@@ -1078,7 +1081,7 @@
   ============================================================ -->
   <section class="section-booking" id="agendamento">
     <div class="booking-visual reveal">
-      <img class="booking-img" src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&q=85" alt="Experiência Maison Belle" />
+      <img decoding="async" loading="lazy" class="booking-img" src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&q=85" alt="Experiência Maison Belle" />
       <div class="booking-quote">
         <p>"Cada cliente merece sentir-se extraordinária. Essa é nossa promessa."</p>
       </div>
@@ -1266,5 +1269,18 @@
     const introStats = document.querySelector('.intro-stats');
     if (introStats) statsObserver.observe(introStats);
   </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const images = document.querySelectorAll('img');
+  images.forEach(img => {
+    if (img.complete) {
+      img.classList.add('loaded');
+    } else {
+      img.addEventListener('load', () => img.classList.add('loaded'));
+    }
+  });
+});
+</script>
 </body>
 </html>

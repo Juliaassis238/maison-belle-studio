@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
-<head>
-  <!--
+<head><link as_="image" href="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&amp;q=85" rel="preload"/>
+<!--
     ============================================================
     MAISON BELLE STUDIO — Premium Beauty Salon
     Projeto desenvolvido por Júlia Ágata de Assis
@@ -9,14 +10,13 @@
     Descrição: Site institucional de salão de beleza premium
     ============================================================
   -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maison Belle Studio — Premium Beauty Experience</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Maison Belle Studio — Premium Beauty Experience</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&amp;family=Jost:wght@200;300;400;500&amp;display=swap" rel="stylesheet"/>
+<style>
   img { opacity: 0; transition: opacity 0.5s ease-in; }
   img.loaded { opacity: 1; }
 
@@ -861,334 +861,322 @@
   </style>
 </head>
 <body>
-
-  <!-- Cursor personalizado -->
-  <div class="cursor" id="cursor"></div>
-  <div class="cursor-ring" id="cursorRing"></div>
-
-  <!-- ============================================================
+<!-- Cursor personalizado -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<!-- ============================================================
        NAVBAR
   ============================================================ -->
-  <nav class="navbar" id="navbar">
-    <a href="#" class="logo">Maison <span>Belle</span> Studio</a>
-    <ul class="nav-links">
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#profissionais">Profissionais</a></li>
-      <li><a href="#galeria">Transformações</a></li>
-      <li><a href="#agendamento">Contato</a></li>
-      <li><a href="#agendamento" class="nav-cta"><span>Agendar</span></a></li>
-    </ul>
-    <div class="hamburger" id="hamburger">
-      <span></span><span></span><span></span>
-    </div>
-  </nav>
-
-  <!-- Menu Mobile -->
-  <div class="mobile-menu" id="mobileMenu">
-    <button class="menu-close" id="menuClose">&#x2715;</button>
-    <a href="#servicos" class="menu-link">Serviços</a>
-    <a href="#profissionais" class="menu-link">Profissionais</a>
-    <a href="#galeria" class="menu-link">Transformações</a>
-    <a href="#agendamento" class="menu-link">Agendar</a>
-  </div>
-
-  <!-- ============================================================
+<nav class="navbar" id="navbar">
+<a class="logo" href="#">Maison <span>Belle</span> Studio</a>
+<ul class="nav-links">
+<li><a href="#servicos">Serviços</a></li>
+<li><a href="#profissionais">Profissionais</a></li>
+<li><a href="#galeria">Transformações</a></li>
+<li><a href="#agendamento">Contato</a></li>
+<li><a class="nav-cta" href="#agendamento"><span>Agendar</span></a></li>
+</ul>
+<div class="hamburger" id="hamburger">
+<span></span><span></span><span></span>
+</div>
+</nav>
+<!-- Menu Mobile -->
+<div class="mobile-menu" id="mobileMenu">
+<button class="menu-close" id="menuClose">✕</button>
+<a class="menu-link" href="#servicos">Serviços</a>
+<a class="menu-link" href="#profissionais">Profissionais</a>
+<a class="menu-link" href="#galeria">Transformações</a>
+<a class="menu-link" href="#agendamento">Agendar</a>
+</div>
+<!-- ============================================================
        HERO
   ============================================================ -->
-  <section class="hero">
-    <div class="hero-bg" id="heroBg"></div>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <p class="hero-tag">Beleza que transforma · Experiência que eleva</p>
-      <h1 class="hero-title">
-        A arte da<br><em>beleza autêntica</em>
-      </h1>
-      <p class="hero-subtitle">
+<section class="hero">
+<div class="hero-bg" id="heroBg"></div>
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<p class="hero-tag">Beleza que transforma · Experiência que eleva</p>
+<h1 class="hero-title">
+        A arte da<br/><em>beleza autêntica</em>
+</h1>
+<p class="hero-subtitle">
         Um espaço singular onde o refinamento encontra a técnica. Cada visita é uma experiência sensorial cuidadosamente orquestrada para realçar sua essência.
       </p>
-      <div class="hero-actions">
-        <a href="#agendamento" class="btn-primary"><span>Reservar Experiência</span></a>
-        <a href="#servicos" class="btn-outline">Descobrir Serviços</a>
-      </div>
-    </div>
-    <div class="hero-scroll">
-      <div class="scroll-line"></div>
-      <span>Scroll</span>
-    </div>
-  </section>
-
-  <!-- ============================================================
+<div class="hero-actions">
+<a class="btn-primary" href="#agendamento"><span>Reservar Experiência</span></a>
+<a class="btn-outline" href="#servicos">Descobrir Serviços</a>
+</div>
+</div>
+<div class="hero-scroll">
+<div class="scroll-line"></div>
+<span>Scroll</span>
+</div>
+</section>
+<!-- ============================================================
        INTRO / SOBRE
   ============================================================ -->
-  <section style="overflow:hidden; background: var(--cream);">
-    <div class="section-intro">
-      <div class="intro-visual reveal">
-        <img decoding="async" fetchpriority="high" class="intro-img-main" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85" alt="Salão Maison Belle" />
-        <img decoding="async" fetchpriority="high" class="intro-img-accent" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=85" alt="Detalhe do estúdio" />
-        <div class="intro-badge">
-          <strong>12</strong>
-          <span>Anos de Excelência</span>
-        </div>
-      </div>
-      <div class="intro-text reveal reveal-delay-2">
-        <p class="section-label">Nossa Filosofia</p>
-        <h2 class="section-title">Beleza como <em>ritual</em>, não rotina.</h2>
-        <p class="section-body">
+<section style="overflow:hidden; background: var(--cream);">
+<div class="section-intro">
+<div class="intro-visual reveal">
+<img alt="Salão Maison Belle" class="intro-img-main" decoding="async" fetchpriority="high" loading="eager" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&amp;q=85"/>
+<img alt="Detalhe do estúdio" class="intro-img-accent" decoding="async" fetchpriority="high" loading="lazy" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&amp;q=85"/>
+<div class="intro-badge">
+<strong>12</strong>
+<span>Anos de Excelência</span>
+</div>
+</div>
+<div class="intro-text reveal reveal-delay-2">
+<p class="section-label">Nossa Filosofia</p>
+<h2 class="section-title">Beleza como <em>ritual</em>, não rotina.</h2>
+<p class="section-body">
           No Maison Belle Studio, acreditamos que cuidar de si é um ato de autoestima. Nossa abordagem une técnicas europeias avançadas à sensibilidade brasileira para criar resultados únicos e duradouros.
         </p>
-        <p class="section-body">
+<p class="section-body">
           Cada cliente é recebida por uma equipe altamente especializada em um ambiente que prioriza o silêncio, o conforto e a sofisticação em cada detalhe.
         </p>
-        <a href="#servicos" class="btn-primary" style="color:var(--white); background:var(--charcoal);"><span>Conhecer Serviços</span></a>
-        <div class="intro-stats">
-          <div class="stat-item">
-            <strong>2.4k</strong>
-            <span>Clientes Exclusivas</span>
-          </div>
-          <div class="stat-item">
-            <strong>18</strong>
-            <span>Especialistas</span>
-          </div>
-          <div class="stat-item">
-            <strong>100%</strong>
-            <span>Produtos Premium</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
+<a class="btn-primary" href="#servicos" style="color:var(--white); background:var(--charcoal);"><span>Conhecer Serviços</span></a>
+<div class="intro-stats">
+<div class="stat-item">
+<strong>2.4k</strong>
+<span>Clientes Exclusivas</span>
+</div>
+<div class="stat-item">
+<strong>18</strong>
+<span>Especialistas</span>
+</div>
+<div class="stat-item">
+<strong>100%</strong>
+<span>Produtos Premium</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================
        SERVIÇOS
   ============================================================ -->
-  <section class="section-services" id="servicos">
-    <div class="services-header">
-      <div>
-        <p class="section-label" style="color:var(--gold-light)">Nossa Curadoria</p>
-        <h2 class="section-title reveal">Serviços de <em>excelência</em></h2>
-      </div>
-      <a href="#agendamento" class="btn-primary" style="color:var(--charcoal);"><span>Ver Todos</span></a>
-    </div>
-    <div class="services-grid">
-      <div class="service-card reveal">
-        <img decoding="async" loading="lazy" class="service-card-img" src="maison_service_1.webp" alt="Coloração Premium" />
-        <div class="service-card-overlay">
-          <div class="service-card-num">01</div>
-          <h3>Coloração Premium</h3>
-          <p>Técnicas avançadas de coloração com pigmentos europeus de alta fixação e luminosidade excepcional.</p>
-          <div class="service-card-price">A partir de R$ 380</div>
-        </div>
-      </div>
-      <div class="service-card reveal reveal-delay-1">
-        <img decoding="async" loading="lazy" class="service-card-img" src="maison_service_2.webp" alt="Tratamentos Capilares" />
-        <div class="service-card-overlay">
-          <div class="service-card-num">02</div>
-          <h3>Tratamentos Capilares</h3>
-          <p>Rituais de nutrição profunda com ativos exclusivos para cabelos de alta performance e brilho radiante.</p>
-          <div class="service-card-price">A partir de R$ 250</div>
-        </div>
-      </div>
-      <div class="service-card reveal reveal-delay-2">
-        <img decoding="async" loading="lazy" class="service-card-img" src="maison_service_3.webp" alt="Estética Facial" />
-        <div class="service-card-overlay">
-          <div class="service-card-num">03</div>
-          <h3>Estética Facial</h3>
-          <p>Protocolos personalizados com tecnologias de última geração para rejuvenescimento e uniformização.</p>
-          <div class="service-card-price">A partir de R$ 420</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
+<section class="section-services" id="servicos">
+<div class="services-header">
+<div>
+<p class="section-label" style="color:var(--gold-light)">Nossa Curadoria</p>
+<h2 class="section-title reveal">Serviços de <em>excelência</em></h2>
+</div>
+<a class="btn-primary" href="#agendamento" style="color:var(--charcoal);"><span>Ver Todos</span></a>
+</div>
+<div class="services-grid">
+<div class="service-card reveal">
+<img alt="Coloração Premium" class="service-card-img" decoding="async" loading="lazy" src="maison_service_1.webp"/>
+<div class="service-card-overlay">
+<div class="service-card-num">01</div>
+<h3>Coloração Premium</h3>
+<p>Técnicas avançadas de coloração com pigmentos europeus de alta fixação e luminosidade excepcional.</p>
+<div class="service-card-price">A partir de R$ 380</div>
+</div>
+</div>
+<div class="service-card reveal reveal-delay-1">
+<img alt="Tratamentos Capilares" class="service-card-img" decoding="async" loading="lazy" src="maison_service_2.webp"/>
+<div class="service-card-overlay">
+<div class="service-card-num">02</div>
+<h3>Tratamentos Capilares</h3>
+<p>Rituais de nutrição profunda com ativos exclusivos para cabelos de alta performance e brilho radiante.</p>
+<div class="service-card-price">A partir de R$ 250</div>
+</div>
+</div>
+<div class="service-card reveal reveal-delay-2">
+<img alt="Estética Facial" class="service-card-img" decoding="async" loading="lazy" src="maison_service_3.webp"/>
+<div class="service-card-overlay">
+<div class="service-card-num">03</div>
+<h3>Estética Facial</h3>
+<p>Protocolos personalizados com tecnologias de última geração para rejuvenescimento e uniformização.</p>
+<div class="service-card-price">A partir de R$ 420</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================
        PROFISSIONAIS
   ============================================================ -->
-  <section class="section-team" id="profissionais">
-    <div class="team-header">
-      <p class="section-label">Nossa Equipe</p>
-      <h2 class="section-title reveal">Especialistas <em>dedicadas</em> a você</h2>
-    </div>
-    <div class="team-grid">
-      <div class="team-card reveal">
-        <img decoding="async" loading="lazy" class="team-img" src="team_1.webp" alt="Ana Carolina" />
-        <div class="team-info">
-          <h3>Ana Carolina</h3>
-          <span>Colorista Sênior</span>
-          <div class="team-social">
-            <a href="#">Instagram</a>
-            <a href="#">Portfolio</a>
-          </div>
-        </div>
-      </div>
-      <div class="team-card reveal reveal-delay-1">
-        <img decoding="async" loading="lazy" class="team-img" src="team_2.webp" alt="Beatriz Santos" />
-        <div class="team-info">
-          <h3>Beatriz Santos</h3>
-          <span>Especialista em Tratamentos</span>
-          <div class="team-social">
-            <a href="#">Instagram</a>
-            <a href="#">Portfolio</a>
-          </div>
-        </div>
-      </div>
-      <div class="team-card reveal reveal-delay-2">
-        <img decoding="async" loading="lazy" class="team-img" src="team_3.webp" alt="Camila Oliveira" />
-        <div class="team-info">
-          <h3>Camila Oliveira</h3>
-          <span>Esteticista Facial</span>
-          <div class="team-social">
-            <a href="#">Instagram</a>
-            <a href="#">Portfolio</a>
-          </div>
-        </div>
-      </div>
-      <div class="team-card reveal reveal-delay-3">
-        <img decoding="async" loading="lazy" class="team-img" src="team_4.webp" alt="Diana Ferreira" />
-        <div class="team-info">
-          <h3>Diana Ferreira</h3>
-          <span>Diretora Criativa</span>
-          <div class="team-social">
-            <a href="#">Instagram</a>
-            <a href="#">Portfolio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
+<section class="section-team" id="profissionais">
+<div class="team-header">
+<p class="section-label">Nossa Equipe</p>
+<h2 class="section-title reveal">Especialistas <em>dedicadas</em> a você</h2>
+</div>
+<div class="team-grid">
+<div class="team-card reveal">
+<img alt="Ana Carolina" class="team-img" decoding="async" loading="lazy" src="team_1.webp"/>
+<div class="team-info">
+<h3>Ana Carolina</h3>
+<span>Colorista Sênior</span>
+<div class="team-social">
+<a href="#">Instagram</a>
+<a href="#">Portfolio</a>
+</div>
+</div>
+</div>
+<div class="team-card reveal reveal-delay-1">
+<img alt="Beatriz Santos" class="team-img" decoding="async" loading="lazy" src="team_2.webp"/>
+<div class="team-info">
+<h3>Beatriz Santos</h3>
+<span>Especialista em Tratamentos</span>
+<div class="team-social">
+<a href="#">Instagram</a>
+<a href="#">Portfolio</a>
+</div>
+</div>
+</div>
+<div class="team-card reveal reveal-delay-2">
+<img alt="Camila Oliveira" class="team-img" decoding="async" loading="lazy" src="team_3.webp"/>
+<div class="team-info">
+<h3>Camila Oliveira</h3>
+<span>Esteticista Facial</span>
+<div class="team-social">
+<a href="#">Instagram</a>
+<a href="#">Portfolio</a>
+</div>
+</div>
+</div>
+<div class="team-card reveal reveal-delay-3">
+<img alt="Diana Ferreira" class="team-img" decoding="async" loading="lazy" src="team_4.webp"/>
+<div class="team-info">
+<h3>Diana Ferreira</h3>
+<span>Diretora Criativa</span>
+<div class="team-social">
+<a href="#">Instagram</a>
+<a href="#">Portfolio</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================
        GALERIA DE TRANSFORMAÇÕES
   ============================================================ -->
-  <section class="section-gallery" id="galeria">
-    <div class="gallery-header">
-      <p class="section-label">Transformações</p>
-      <h2 class="section-title reveal">Resultados que <em>falam</em> por si</h2>
-    </div>
-    <div class="gallery-grid">
-      <div class="gallery-item">
-        <img decoding="async" loading="lazy" class="gallery-img" src="maison_gallery_1.webp" alt="Transformação 1" />
-        <div class="gallery-item-overlay"><span class="gallery-item-label">Coloração Balayage</span></div>
-      </div>
-      <div class="gallery-item">
-        <img decoding="async" loading="lazy" class="gallery-img" src="maison_gallery_2.webp" alt="Transformação 2" />
-        <div class="gallery-item-overlay"><span class="gallery-item-label">Corte Premium</span></div>
-      </div>
-      <div class="gallery-item">
-        <img decoding="async" loading="lazy" class="gallery-img" src="maison_gallery_3.webp" alt="Transformação 3" />
-        <div class="gallery-item-overlay"><span class="gallery-item-label">Estética Facial</span></div>
-      </div>
-      <div class="gallery-item">
-        <img decoding="async" loading="lazy" class="gallery-img" src="maison_gallery_4.webp" alt="Transformação 4" />
-        <div class="gallery-item-overlay"><span class="gallery-item-label">Ritual Completo</span></div>
-      </div>
-      <div class="gallery-item">
-        <img decoding="async" loading="lazy" class="gallery-img" src="maison_gallery_5.webp" alt="Transformação 5" />
-        <div class="gallery-item-overlay"><span class="gallery-item-label">Nutrição Capilar</span></div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ============================================================
+<section class="section-gallery" id="galeria">
+<div class="gallery-header">
+<p class="section-label">Transformações</p>
+<h2 class="section-title reveal">Resultados que <em>falam</em> por si</h2>
+</div>
+<div class="gallery-grid">
+<div class="gallery-item">
+<img alt="Transformação 1" class="gallery-img" decoding="async" loading="lazy" src="maison_gallery_1.webp"/>
+<div class="gallery-item-overlay"><span class="gallery-item-label">Coloração Balayage</span></div>
+</div>
+<div class="gallery-item">
+<img alt="Transformação 2" class="gallery-img" decoding="async" loading="lazy" src="maison_gallery_2.webp"/>
+<div class="gallery-item-overlay"><span class="gallery-item-label">Corte Premium</span></div>
+</div>
+<div class="gallery-item">
+<img alt="Transformação 3" class="gallery-img" decoding="async" loading="lazy" src="maison_gallery_3.webp"/>
+<div class="gallery-item-overlay"><span class="gallery-item-label">Estética Facial</span></div>
+</div>
+<div class="gallery-item">
+<img alt="Transformação 4" class="gallery-img" decoding="async" loading="lazy" src="maison_gallery_4.webp"/>
+<div class="gallery-item-overlay"><span class="gallery-item-label">Ritual Completo</span></div>
+</div>
+<div class="gallery-item">
+<img alt="Transformação 5" class="gallery-img" decoding="async" loading="lazy" src="maison_gallery_5.webp"/>
+<div class="gallery-item-overlay"><span class="gallery-item-label">Nutrição Capilar</span></div>
+</div>
+</div>
+</section>
+<!-- ============================================================
        AGENDAMENTO
   ============================================================ -->
-  <section class="section-booking" id="agendamento">
-    <div class="booking-visual reveal">
-      <img decoding="async" loading="lazy" class="booking-img" src="booking_high_quality.webp" alt="Experiência Maison Belle" />
-      <div class="booking-quote">
-        <p>"Cada cliente merece sentir-se extraordinária. Essa é nossa promessa."</p>
-      </div>
-    </div>
-    <div class="booking-form reveal reveal-delay-2">
-      <p class="section-label">Agende sua Visita</p>
-      <h2 class="section-title">Reserve sua <em>experiência</em></h2>
-      <p class="section-body">Preencha o formulário e nossa equipe entrará em contato para confirmar sua reserva exclusiva.</p>
-      <form onsubmit="return false;">
-        <div class="form-row">
-          <div class="form-group">
-            <label>Nome Completo</label>
-            <input type="text" placeholder="Seu nome" />
-          </div>
-          <div class="form-group">
-            <label>Telefone</label>
-            <input type="tel" placeholder="(00) 00000-0000" />
-          </div>
-        </div>
-        <div class="form-group">
-          <label>E-mail</label>
-          <input type="email" placeholder="seu@email.com" />
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label>Serviço de Interesse</label>
-            <select>
-              <option value="">Selecione</option>
-              <option>Coloração Premium</option>
-              <option>Tratamento Capilar</option>
-              <option>Estética Facial</option>
-              <option>Pacote Completo</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label>Data Preferida</label>
-            <input type="date" />
-          </div>
-        </div>
-        <div class="form-group">
-          <label>Observações</label>
-          <textarea placeholder="Informações adicionais..."></textarea>
-        </div>
-        <button type="submit" class="btn-primary" style="border:none; cursor:pointer; width:100%; justify-content:center; display:block; text-align:center;">
-          <span>Confirmar Reserva</span>
-        </button>
-      </form>
-    </div>
-  </section>
-
-  <!-- ============================================================
+<section class="section-booking" id="agendamento">
+<div class="booking-visual reveal">
+<img alt="Experiência Maison Belle" class="booking-img" decoding="async" loading="lazy" src="booking_high_quality.webp"/>
+<div class="booking-quote">
+<p>"Cada cliente merece sentir-se extraordinária. Essa é nossa promessa."</p>
+</div>
+</div>
+<div class="booking-form reveal reveal-delay-2">
+<p class="section-label">Agende sua Visita</p>
+<h2 class="section-title">Reserve sua <em>experiência</em></h2>
+<p class="section-body">Preencha o formulário e nossa equipe entrará em contato para confirmar sua reserva exclusiva.</p>
+<form onsubmit="return false;">
+<div class="form-row">
+<div class="form-group">
+<label>Nome Completo</label>
+<input placeholder="Seu nome" type="text"/>
+</div>
+<div class="form-group">
+<label>Telefone</label>
+<input placeholder="(00) 00000-0000" type="tel"/>
+</div>
+</div>
+<div class="form-group">
+<label>E-mail</label>
+<input placeholder="seu@email.com" type="email"/>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label>Serviço de Interesse</label>
+<select>
+<option value="">Selecione</option>
+<option>Coloração Premium</option>
+<option>Tratamento Capilar</option>
+<option>Estética Facial</option>
+<option>Pacote Completo</option>
+</select>
+</div>
+<div class="form-group">
+<label>Data Preferida</label>
+<input type="date"/>
+</div>
+</div>
+<div class="form-group">
+<label>Observações</label>
+<textarea placeholder="Informações adicionais..."></textarea>
+</div>
+<button class="btn-primary" style="border:none; cursor:pointer; width:100%; justify-content:center; display:block; text-align:center;" type="submit">
+<span>Confirmar Reserva</span>
+</button>
+</form>
+</div>
+</section>
+<!-- ============================================================
        FOOTER
   ============================================================ -->
-  <footer>
-    <div class="footer-top">
-      <div class="footer-brand">
-        <span class="logo">Maison <span>Belle</span> Studio</span>
-        <p>Um espaço de beleza premium onde sofisticação e técnica se encontram para criar experiências únicas.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Serviços</h4>
-        <ul>
-          <li><a href="#">Coloração Premium</a></li>
-          <li><a href="#">Tratamentos Capilares</a></li>
-          <li><a href="#">Estética Facial</a></li>
-          <li><a href="#">Maquiagem</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Estúdio</h4>
-        <ul>
-          <li><a href="#">Nossa História</a></li>
-          <li><a href="#">Equipe</a></li>
-          <li><a href="#">Galeria</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contato</h4>
-        <ul>
-          <li><a href="#">Av. Paulista, 1234 — SP</a></li>
-          <li><a href="#">(11) 9 9999-0000</a></li>
-          <li><a href="#">contato@maisonbelle.com.br</a></li>
-          <li><a href="#">Seg — Sáb, 9h às 20h</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p class="footer-copy">&copy; 2024 Maison Belle Studio. Todos os direitos reservados.</p>
-      <p class="footer-dev">Projeto desenvolvido por <span>Júlia Ágata de Assis</span></p>
-    </div>
-  </footer>
-
-  <script>
+<footer>
+<div class="footer-top">
+<div class="footer-brand">
+<span class="logo">Maison <span>Belle</span> Studio</span>
+<p>Um espaço de beleza premium onde sofisticação e técnica se encontram para criar experiências únicas.</p>
+</div>
+<div class="footer-col">
+<h4>Serviços</h4>
+<ul>
+<li><a href="#">Coloração Premium</a></li>
+<li><a href="#">Tratamentos Capilares</a></li>
+<li><a href="#">Estética Facial</a></li>
+<li><a href="#">Maquiagem</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Estúdio</h4>
+<ul>
+<li><a href="#">Nossa História</a></li>
+<li><a href="#">Equipe</a></li>
+<li><a href="#">Galeria</a></li>
+<li><a href="#">Blog</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Contato</h4>
+<ul>
+<li><a href="#">Av. Paulista, 1234 — SP</a></li>
+<li><a href="#">(11) 9 9999-0000</a></li>
+<li><a href="#">contato@maisonbelle.com.br</a></li>
+<li><a href="#">Seg — Sáb, 9h às 20h</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p class="footer-copy">© 2024 Maison Belle Studio. Todos os direitos reservados.</p>
+<p class="footer-dev">Projeto desenvolvido por <span>Júlia Ágata de Assis</span></p>
+</div>
+</footer>
+<script>
     /* ============================================================
        SCRIPT PRINCIPAL — Maison Belle Studio
     ============================================================ */
@@ -1282,7 +1270,6 @@
     const introStats = document.querySelector('.intro-stats');
     if (introStats) statsObserver.observe(introStats);
   </script>
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const images = document.querySelectorAll('img');
@@ -1295,7 +1282,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const images = document.querySelectorAll('img');
@@ -1308,7 +1294,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const images = document.querySelectorAll('img');
@@ -1321,7 +1306,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const images = document.querySelectorAll('img');
@@ -1334,7 +1318,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const images = document.querySelectorAll('img');
@@ -1347,7 +1330,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const images = document.querySelectorAll('img');
